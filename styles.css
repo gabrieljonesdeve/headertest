@@ -1,0 +1,61 @@
+body {
+    font-family: 'Fira Code', monospace; /* Usa il font Fira Code per uno stile da nerd */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Colore di sfondo leggero */
+}
+
+header {
+    background: linear-gradient(to right, #4a90e2, #50e3c2); /* Gradiente per uno stile moderno */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra per un effetto di elevazione */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 60px;
+    border-radius: 10px; /* Angoli arrotondati per il logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Colore di hover per gli link */
+}
+
+main {
+    padding: 80px 20px 20px; /* Spazio sufficiente per non coprire il contenuto sotto l'header */
+    max-width: 1200px;
+    margin: 0 auto;
+}
